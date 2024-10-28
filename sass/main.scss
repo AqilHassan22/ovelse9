@@ -225,13 +225,13 @@ nav{
                 list-style: none;
                 padding: 0;
                 margin: 0.5rem 0;
-                li{
-                    &:first-child {
-                        color: #a6a6a6;
-                        text-transform: uppercase;
-                    }
+            
+                li:first-child {
+                    color: black;
+                    text-transform: uppercase;
                 }
             }
+            
             /* Hva: Fjerner listeoppsett og legger til styling for produktinfo.
                Hvorfor: For et renere, listefritt oppsett.
                Hvordan: Setter list-style til none og legger til tekstendringer.
